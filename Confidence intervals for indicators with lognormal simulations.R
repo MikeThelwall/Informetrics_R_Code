@@ -1,4 +1,4 @@
-#Code to use discretised lognormal simulations for citation data to test the precision of mean parameter estimates.
+#Discretised lognormal simulations for citation data to test the precision of the MNLCS indicator
 #See the end for the location of the file to save the results in
 library(SDMTools)	#for wt.mean; wt.sd http://cran.r-project.org/web/packages/SDMTools/SDMTools.pdf
 library(poweRlaw)

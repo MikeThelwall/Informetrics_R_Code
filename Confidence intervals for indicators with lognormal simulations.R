@@ -2,7 +2,6 @@
 #See the end for the location of the file to save the results in
 library(SDMTools)	#for wt.mean; wt.sd http://cran.r-project.org/web/packages/SDMTools/SDMTools.pdf
 library(poweRlaw)
-#library(boot)#For bootstrapping; see http://www.statmethods.net/advstats/bootstrapping.html
 
 iterations <- 10000	# Change this for a different number of iterations (less than 100 can cause errors)
 bootstrapCount <- 1000 # Change this for a different number of bootstrap iterations (less than 100 can cause errors)

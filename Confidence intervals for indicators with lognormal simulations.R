@@ -119,8 +119,7 @@ for (mean0 in seq(5,5,by=0.1)) {				# Change this for a different range of means
 }
 }#MainFunction()
 
-sink(paste("E:/data/Scopus/Conf Interval simulate/results/ConfidenceIntervalFormulaAccuracyFixedH 6 10k var p 5 ",runif(1,0,1)," dis", simulationMethod, ".txt", sep="")) 
+sink(paste("C:/results/ConfidenceIntervalFormulaAccuracyFixedH 6 10k var p 5 ",runif(1,0,1)," dis", simulationMethod, ".txt", sep="")) 
 MainFunction()
 sink()
-cat("CHANGE ORIGINAL SIMULATION ABOVE TO DISCRETISED LOGNORMAL")
 

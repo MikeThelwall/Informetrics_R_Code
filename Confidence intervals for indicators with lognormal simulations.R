@@ -4,8 +4,8 @@ library(SDMTools)	#for wt.mean; wt.sd http://cran.r-project.org/web/packages/SDM
 library(poweRlaw)
 
 iterations <- 10000	# Change this for a different number of iterations (less than 100 can cause errors)
-bootstrapCount <- 1000 # Change this for a different number of bootstrap iterations (less than 100 can cause errors)
-simulationMethod <- 1; # 1 is discrete with powerlaw, 0 is continuous lognormal rounded.
+bootstrapCount <- 1000  # Change this for a different number of bootstrap iterations (less than 100 can cause errors)
+simulationMethod <- 1;  # 1 is discrete with poweRlaw, 0 is continuous lognormal rounded.
 
 confidenceInterval <- function(x, pc) {
 	pc <- pc/2
